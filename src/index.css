@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #c2074e 0%, #eecd5f 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn-golden-yellow {
+  background-color: #FFD700;       /* Golden yellow */
+  color: #000;                     /* Black text */
+  font-weight: bold;
+  border: 2px solid #000;          /* Dark border */
+}
+
+.btn-golden-yellow:hover {
+  background-color: #FFC300;       /* Slightly darker yellow on hover */
+  color: #000;
+}

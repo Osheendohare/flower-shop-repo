@@ -1,0 +1,150 @@
+.border-col {
+  border-right: 1px solid #f8f5c4;
+}
+
+.border-col:nth-child(4),
+.border-col:nth-child(8) {
+  border-right: none; /* No right border on last col in row */
+}
+
+.horizontal-divider {
+  height: 1px;
+  background-color: #f8e3c4;
+  margin: 0 0 20px 0; 
+}
+
+.best-selling-scroll {
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  padding-bottom: 1rem;
+}
+
+.best-selling-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.delivery-section img {
+  object-fit: contain;
+}
+
+.flower-category-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.gallery-card {
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease;
+}
+
+.gallery-card:hover {
+  transform: scale(1.05);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  transition: 0.3s ease;
+}
+
+/* Hide scrollbar for scrollable review section */
+.d-flex::-webkit-scrollbar {
+  display: none;
+}
+.d-flex {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.city-scroll-container {
+  white-space: nowrap;
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.city-scroll-container::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari, Opera */
+}
+
+.city-icon-wrapper {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #570603;
+  padding: 4px;
+  background-color: #811414;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.city-icon-wrapper:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.city-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.caption-bottom-left {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 2;
+  /* background-color: rgba(0, 0, 0, 0.5); optional for readability */
+  padding: 10px 15px;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+.recommended-scroll {
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  padding-bottom: 1rem;
+}
+
+.recommended-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.MakeItSpecial-scroll {
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  padding-bottom: 1rem;
+}
+
+.MakeItSpecial-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.accordion-custom .accordion-header {
+  background: linear-gradient(135deg,rgb(17, 1, 7) 0%,rgb(143, 29, 9) 100%);
+  color: white;
+  border-radius: 10px;
+}
+
+.accordion-custom .accordion-body {
+  background: rgba(107, 72, 8, 0.664);
+  color: white;
+  border-radius: 10px;
+}
+
+.accordion-custom .accordion-button {
+  background: transparent;
+  color: white;
+}
+
+/* chatbot */
+.chat-input::placeholder {
+  color: #1d1915;  /* your floral theme */
+  opacity: 1;
+  padding-left: 10px;
+}
+
